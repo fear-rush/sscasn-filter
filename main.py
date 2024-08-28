@@ -29,5 +29,5 @@ for offset in range(0, ((offset_number // 10) * 10), 10):
 
 df = pd.DataFrame(all_data)
 
-df.to_excel("formasi_2.xlsx", index=False)
+df.to_excel("formasi.xlsx", index=False)
 print("End")
